@@ -3,6 +3,6 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    printf("Esta va a ser la calculadora");
     return 0;
 }
