@@ -12,7 +12,7 @@ int main()
     float resultadoResta;
     float resultadoMultiplicacion;
     float resultadoDivision;
-    float FactorialA;
+    //float FactorialA;
     char opcion;
 
     do
@@ -21,7 +21,7 @@ int main()
         printf(".-(2) Ingresar el segundo operando\n");
         printf(".-(3) Calcular todas las operanciones\n");
         printf(".-(4) Informar resultados\n");
-        printf(".-(5) Salir");
+        printf(".-(5) Salir\n");
         fflush(stdin);
         scanf("%c", &opcion);
 
@@ -42,8 +42,8 @@ int main()
                 resultadoResta=resta(datoUno, datoDos);
                 resultadoMultiplicacion=multiplicacion(datoUno, datoDos);
                 resultadoDivision=division(datoUno, datoDos);
-                FactorialA=factorialAx(datoUno, datoDos);
-                printf("Calculando.");
+               // FactorialA=factorialAx(datoUno, datoDos);
+                printf("Calculando.\n");
                 system("pause");
                 system("cls");
                     break;
@@ -52,13 +52,13 @@ int main()
                 printf("\n--El resultado de la resta es: %lf \n",resta);
                 printf("\n--El resultado de la multiplicacion es: %lf \n",multiplicacion);
                 printf("\n--El resultado de la division es: %lf \n",division);
-                printf("\n--El resultado de la factorial A es: %lf \n",factorialAx);
+                //printf("\n--El resultado de la factorial A es: %lf \n",factorialAx);
                     break;
             case '5':
-                printf("Gracias por utilizar el programa...");
+                printf("Gracias por utilizar el programa...\n");
                     break;
             default:
-                printf("Debe ingresar una opcion valida");
+                printf("Debe ingresar una opcion valida\n");
                     break;
         }
         system("pause");
