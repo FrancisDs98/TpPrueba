@@ -48,10 +48,10 @@ int main()
                 system("cls");
                     break;
             case '4':
-                printf("\n--El resultado de la suma es: %lf \n",suma);
-                printf("\n--El resultado de la resta es: %lf \n",resta);
-                printf("\n--El resultado de la multiplicacion es: %lf \n",multiplicacion);
-                printf("\n--El resultado de la division es: %lf \n",division);
+                printf("\n--El resultado de la suma es: %.2f \n",resultadoSuma);
+                printf("\n--El resultado de la resta es: %.2f \n",resultadoResta);
+                printf("\n--El resultado de la multiplicacion es: %.2f \n",resultadoMultiplicacion);
+                printf("\n--El resultado de la division es: %.2f \n",resultadoDivision);
                 //printf("\n--El resultado de la factorial A es: %lf \n",factorialAx);
                     break;
             case '5':

@@ -12,3 +12,16 @@
 	<stdlib.h>
 	<string.h>
 
+1536155802 source:d:\francis\tpprueba-master\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1536115941 d:\francis\tpprueba-master\math.h
+
+1536115941 source:d:\francis\tpprueba-master\math.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
