@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1536108065 source:c:\users\francis\desktop\tp\trabajopractico1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"math.h"
+
+1536107634 c:\users\francis\desktop\tp\trabajopractico1\math.h
+
+1536112890 source:c:\users\francis\desktop\tp\trabajopractico1\math.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
